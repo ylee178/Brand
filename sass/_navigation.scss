@@ -1,0 +1,155 @@
+.nav {
+	bottom: 3%;
+	position: absolute;
+	vertical-align: baseline;
+	left: 0;
+	width: 100%;
+	z-index: 600;
+}
+
+ul {
+	list-style: none;
+	float: right;	
+	margin: 0;
+	padding: 0;
+}
+
+.navright li {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	margin: 0 0 0 35px;
+	text-align: center;
+
+}
+
+.navwrap {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	z-index: 200;
+	padding: 2% 2% 2% 0;
+}
+
+.navwrap a {
+	color: #fff;
+}
+
+.fixed-top {
+	position: fixed !important;
+	right: 0;
+	left: 0;
+	z-index: 600;
+	top:0;
+	bottom: auto;
+	background: rgba(126, 126, 126, 0.6);
+	
+	}
+
+.fixed-top a {
+	color: #fff;
+}
+
+.btn-col {
+	display: none;
+	position: relative;
+	z-index: 1000;
+}
+
+.logo {
+	position: relative;
+	z-index: 1000;
+}
+
+.fa {
+	font-size: 25px !important;
+}
+
+.overlap {
+	position: relative;
+	overflow: hidden;
+}
+
+.mobilenav {
+	opacity: 0;
+}	
+/*-------------media queries------------*/
+
+@media (max-width: 600px) {
+	.nav {
+		padding: 0 0 9% 0;
+		width: 100%;
+		bottom: 2%;
+	}
+	.navwrap {
+		position: absolute;
+		z-index: 500;
+		float: none;
+		width: 100%;
+		padding: 2%;
+	}
+
+	.transback{
+	background: transparent;
+}
+
+	.container{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	.navright {
+		display: none;
+	}
+	.mobilenav a {
+		color: #fff;
+		line-height: 40px;
+}
+	.show {
+		opacity: 1 !important;
+		float: none;
+		padding: 0 0 5% 0;
+		left: 0;
+		width: 100%;
+		display: block;
+		position: relative;
+		
+}
+
+	.btn-col {
+		display: inline-block;
+		color: red;
+		font-size: 20px;
+		cursor: pointer;
+		float: right;
+		position: relative;
+		background: transparent;
+		z-index: 1200;
+	}
+	.logo {
+		position: relative;
+		background: transparent;
+		z-index: 1200;
+}
+	.logo img {
+		width: 30px;
+	}
+	.mobilenav {
+		text-align: center;
+		float: none;
+		padding: 7% 0 5% 0;
+		background: rgba(126, 126, 126, 0.6);
+		z-index: 10;		
+		top:0;
+	}
+}
+
+@media (max-width: 400px){
+	.nav {
+		bottom: 10%;
+	}
+}

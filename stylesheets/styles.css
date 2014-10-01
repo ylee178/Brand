@@ -1,0 +1,545 @@
+/* line 2, ../sass/_layout.scss */
+.test {
+  padding: 0;
+}
+
+/* line 6, ../sass/_layout.scss */
+.gridwrap {
+  margin: 0 auto;
+  margin-bottom: 7%;
+}
+
+/* line 11, ../sass/_layout.scss */
+.secondright {
+  height: 400px;
+  background: url(../img/dosanddonts.jpg) no-repeat;
+  background-position-x: 12%;
+  background-position-y: 9%;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 24, ../sass/_layout.scss */
+.secondright:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+/* line 30, ../sass/_layout.scss */
+.row1-1 {
+  background: green;
+}
+
+/* line 34, ../sass/_layout.scss */
+.row1-2 {
+  background: red;
+}
+
+/* line 38, ../sass/_layout.scss */
+.row1-3 {
+  background: gray;
+}
+
+/* line 42, ../sass/_layout.scss */
+.row1-4 {
+  background: yellow;
+}
+
+/* line 46, ../sass/_layout.scss */
+.row2-1 {
+  background: green;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 56, ../sass/_layout.scss */
+.row2-1:hover {
+  color: #000;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+/* line 62, ../sass/_layout.scss */
+.row2-2 {
+  background: blue;
+}
+
+/* line 66, ../sass/_layout.scss */
+.row3-1 {
+  background: red;
+  height: 200px;
+}
+
+/* line 71, ../sass/_layout.scss */
+.row3-2 {
+  background: gray;
+  height: 200px;
+}
+
+/* line 76, ../sass/_layout.scss */
+.subcol1 {
+  background: black;
+  width: 100%;
+  height: 100px;
+}
+
+/* line 82, ../sass/_layout.scss */
+.subcol2 {
+  background: yellow;
+  width: 100%;
+  height: 100px;
+}
+
+/* line 88, ../sass/_layout.scss */
+.test {
+  height: 200px;
+}
+
+/* line 92, ../sass/_layout.scss */
+.row4-1 {
+  background: green;
+}
+
+/* line 96, ../sass/_layout.scss */
+.row4-2 {
+  background: red;
+}
+
+/* line 100, ../sass/_layout.scss */
+.row4-3 {
+  background: black;
+}
+
+/* line 104, ../sass/_layout.scss */
+.row4-4 {
+  background: yellow;
+}
+
+/* line 107, ../sass/_layout.scss */
+.row4-5 {
+  background: gray;
+}
+
+/* line 111, ../sass/_layout.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 119, ../sass/_layout.scss */
+.main {
+  background: url(../img/main.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* line 127, ../sass/_layout.scss */
+.penny {
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+}
+
+/* line 132, ../sass/_layout.scss */
+.pennywrap {
+  position: relative;
+  padding-top: 14%;
+  padding-bottom: 14%;
+}
+
+/* line 138, ../sass/_layout.scss */
+.brand {
+  padding: 12% 4%;
+}
+
+/* line 142, ../sass/_layout.scss */
+.brandvalue {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 149, ../sass/_layout.scss */
+.logowrap {
+  padding: 11% 4%;
+}
+
+/* line 153, ../sass/_layout.scss */
+.brandlogo {
+  width: 100%;
+  padding: 10%;
+}
+
+/* line 159, ../sass/_layout.scss */
+.row2-1 {
+  background: url(../img/typo.jpg) center center no-repeat;
+  background-position-x: 76%;
+  background-position-y: 54%;
+}
+
+/* line 166, ../sass/_layout.scss */
+.subcol1 {
+  background: url(../img/bnwlogo.png) center center no-repeat;
+  background-position-x: 47%;
+  background-position-y: 30%;
+}
+
+/* line 172, ../sass/_layout.scss */
+.subcol2 {
+  background: url(../img/wnblogo.jpg) center center no-repeat;
+  background-position-x: 47%;
+  background-position-y: 63%;
+}
+
+/* line 178, ../sass/_layout.scss */
+.row1-2 {
+  background: url(../img/strap.jpg) no-repeat;
+  background-position-x: 3%;
+  background-position-y: 10%;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 190, ../sass/_layout.scss */
+.row1-2:hover {
+  color: #1a5c5b;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+/* line 195, ../sass/_layout.scss */
+.row1-1 {
+  background: url(../img/smile.jpg) no-repeat;
+  background-position-x: 72%;
+  background-position-y: 99%;
+}
+
+/* line 201, ../sass/_layout.scss */
+.row1-3 {
+  background: url(../img/cartoon.png) no-repeat;
+  background-position-x: 88%;
+  background-position-y: 12%;
+}
+
+/* line 207, ../sass/_layout.scss */
+.row3-1 {
+  background: url(../img/pennybox.jpg) no-repeat;
+  background-position-x: 45%;
+  background-position-y: 53%;
+  background-size: cover;
+}
+
+/* line 214, ../sass/_layout.scss */
+.row3-2 {
+  background: url(../img/pennys.jpg) no-repeat;
+  background-position-x: 33%;
+  background-position-y: 8%;
+}
+
+/* line 220, ../sass/_layout.scss */
+.row4-1 {
+  background: url(../img/4-2.jpg) no-repeat;
+  background-position-x: 53%;
+  background-position-y: 20%;
+}
+
+/* line 226, ../sass/_layout.scss */
+.row4-2 {
+  background: url(../img/poster.jpg) no-repeat;
+  background-position-x: 51%;
+  background-position-y: 6%;
+}
+
+/* line 231, ../sass/_layout.scss */
+.row4-4 {
+  background: url(../img/friends.jpg) no-repeat;
+  background-position-x: 67%;
+  background-position-y: 43%;
+  background-size: cover;
+}
+
+/* line 237, ../sass/_layout.scss */
+.row4-3 {
+  background: url(../img/yumjang.jpg) no-repeat;
+  background-position-x: 29%;
+  background-position-y: 57%;
+}
+
+/* line 243, ../sass/_layout.scss */
+.row4-5 {
+  background: url(../img/jump.jpg) no-repeat;
+  background-position-x: 77%;
+  background-position-y: 57%;
+}
+
+/* line 250, ../sass/_layout.scss */
+.final {
+  margin: 0 auto;
+  margin-bottom: 7%;
+}
+
+/* line 255, ../sass/_layout.scss */
+.final img {
+  width: 100%;
+}
+
+/* line 259, ../sass/_layout.scss */
+.footer {
+  background: url(../img/footer.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  padding: 2%;
+  background-position-x: 20%;
+  background-position-y: 19%;
+  width: 100%;
+  text-align: center;
+}
+
+/*------------------media queries---------------------------*/
+@media (min-width: 768px) {
+  /* line 274, ../sass/_layout.scss */
+  .bot {
+    width: 20%;
+  }
+}
+/* line 3, ../sass/_typography.scss */
+a {
+  font-weight: bold;
+}
+
+/* line 7, ../sass/_typography.scss */
+.brand p {
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* line 13, ../sass/_typography.scss */
+.footer p {
+  color: #fff;
+}
+
+/* line 17, ../sass/_typography.scss */
+.brand h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+/* line 23, ../sass/_typography.scss */
+.final h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+/* line 28, ../sass/_typography.scss */
+.final p {
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* line 34, ../sass/_typography.scss */
+footer p {
+  font-weight: bold;
+}
+
+/* line 1, ../sass/_navigation.scss */
+.nav {
+  bottom: 3%;
+  position: absolute;
+  vertical-align: baseline;
+  left: 0;
+  width: 100%;
+  z-index: 600;
+}
+
+/* line 10, ../sass/_navigation.scss */
+ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, ../sass/_navigation.scss */
+.navright li {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  margin: 0 0 0 35px;
+  text-align: center;
+}
+
+/* line 27, ../sass/_navigation.scss */
+.navwrap {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  z-index: 200;
+  padding: 2% 2% 2% 0;
+}
+
+/* line 36, ../sass/_navigation.scss */
+.navwrap a {
+  color: #fff;
+}
+
+/* line 40, ../sass/_navigation.scss */
+.fixed-top {
+  position: fixed !important;
+  right: 0;
+  left: 0;
+  z-index: 600;
+  top: 0;
+  bottom: auto;
+  background: rgba(126, 126, 126, 0.6);
+}
+
+/* line 51, ../sass/_navigation.scss */
+.fixed-top a {
+  color: #fff;
+}
+
+/* line 55, ../sass/_navigation.scss */
+.btn-col {
+  display: none;
+  position: relative;
+  z-index: 1000;
+}
+
+/* line 61, ../sass/_navigation.scss */
+.logo {
+  position: relative;
+  z-index: 1000;
+}
+
+/* line 66, ../sass/_navigation.scss */
+.fa {
+  font-size: 25px !important;
+}
+
+/* line 70, ../sass/_navigation.scss */
+.overlap {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 75, ../sass/_navigation.scss */
+.mobilenav {
+  opacity: 0;
+}
+
+/*-------------media queries------------*/
+@media (max-width: 600px) {
+  /* line 81, ../sass/_navigation.scss */
+  .nav {
+    padding: 0 0 9% 0;
+    width: 100%;
+    bottom: 2%;
+  }
+
+  /* line 86, ../sass/_navigation.scss */
+  .navwrap {
+    position: absolute;
+    z-index: 500;
+    float: none;
+    width: 100%;
+    padding: 2%;
+  }
+
+  /* line 94, ../sass/_navigation.scss */
+  .transback {
+    background: transparent;
+  }
+
+  /* line 98, ../sass/_navigation.scss */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* line 104, ../sass/_navigation.scss */
+  .navright {
+    display: none;
+  }
+
+  /* line 107, ../sass/_navigation.scss */
+  .mobilenav a {
+    color: #fff;
+    line-height: 40px;
+  }
+
+  /* line 111, ../sass/_navigation.scss */
+  .show {
+    opacity: 1 !important;
+    float: none;
+    padding: 0 0 5% 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  /* line 122, ../sass/_navigation.scss */
+  .btn-col {
+    display: inline-block;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    background: transparent;
+    z-index: 1200;
+  }
+
+  /* line 132, ../sass/_navigation.scss */
+  .logo {
+    position: relative;
+    background: transparent;
+    z-index: 1200;
+  }
+
+  /* line 137, ../sass/_navigation.scss */
+  .logo img {
+    width: 30px;
+  }
+
+  /* line 140, ../sass/_navigation.scss */
+  .mobilenav {
+    text-align: center;
+    float: none;
+    padding: 7% 0 5% 0;
+    background: rgba(126, 126, 126, 0.6);
+    z-index: 10;
+    top: 0;
+  }
+}
+@media (max-width: 400px) {
+  /* line 151, ../sass/_navigation.scss */
+  .nav {
+    bottom: 10%;
+  }
+}

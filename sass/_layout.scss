@@ -1,0 +1,277 @@
+
+.test {
+	padding: 0;
+}
+
+.gridwrap {
+	margin: 0 auto;
+	margin-bottom: 7%;
+}
+
+.secondright {
+	height: 400px;
+	background: url(../img/dosanddonts.jpg) no-repeat;
+	background-position-x: 12%;
+	background-position-y: 9%;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;        
+	-moz-transition: all 0.5s ease;             
+	-o-transition: all 0.5s ease;  
+	-ms-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+}
+
+.secondright:hover{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+
+.row1-1 {
+	background: green;
+}
+
+.row1-2 {
+	background: red;
+}
+
+.row1-3 {
+	background: gray;
+}
+
+.row1-4 {
+	background: yellow;
+}
+
+.row2-1 {
+	background: green;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;        
+	-moz-transition: all 0.5s ease;             
+	-o-transition: all 0.5s ease;  
+	-ms-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+}
+
+.row2-1:hover{
+    color: #000;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.row2-2 {
+	background: blue;
+}
+
+.row3-1 {
+	background: red;
+	height: 200px;
+}
+
+.row3-2 {
+	background: gray;
+	height: 200px;
+}
+
+.subcol1 {
+	background: black;
+	  width: 100%;
+	  height: 100px;
+} 
+
+.subcol2 {
+	background: yellow;
+  width: 100%;
+  height: 100px;
+} 
+
+.test {
+	height: 200px;
+}
+
+.row4-1 {
+	background: green;
+}
+
+.row4-2 {
+	background: red;
+}
+
+.row4-3 {
+	background: black;
+}
+
+.row4-4 {
+	background: yellow;
+}
+.row4-5 {
+	background: gray;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.main {
+	background: url(../img/main.jpg) center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.penny {
+	display: block;
+	margin: 0 auto;
+	max-width: 40%;
+}
+.pennywrap {
+	position: relative;
+	padding-top: 14%;
+	padding-bottom: 14%;
+}
+
+.brand {
+	padding: 12% 4%;
+}
+
+.brandvalue {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logowrap {
+	padding: 11% 4%;
+}
+
+.brandlogo {
+	width: 100%;
+	padding: 10%;
+
+}
+
+.row2-1 {
+	background: url(../img/typo.jpg) center center no-repeat;
+	background-position-x: 76%;
+	background-position-y: 54%;
+}
+
+
+.subcol1 {
+	background: url(../img/bnwlogo.png) center center no-repeat;
+	background-position-x: 47%;
+	background-position-y: 30%;
+}
+
+.subcol2 {
+	background: url(../img/wnblogo.jpg) center center no-repeat;
+	background-position-x: 47%;
+	background-position-y: 63%;
+}
+
+.row1-2 {
+	background: url(../img/strap.jpg) no-repeat;
+	background-position-x: 3%;
+	background-position-y: 10%;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;        
+	-moz-transition: all 0.5s ease;             
+	-o-transition: all 0.5s ease;  
+	-ms-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+}
+
+.row1-2:hover{
+ 	color: #1a5c5b;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.row1-1 {
+	background: url(../img/smile.jpg) no-repeat;
+	background-position-x: 72%;
+	background-position-y: 99%;
+}
+
+.row1-3 {
+	background: url(../img/cartoon.png) no-repeat;
+	background-position-x: 88%;
+	background-position-y: 12%;
+}
+
+.row3-1 {
+	background: url(../img/pennybox.jpg) no-repeat;
+	background-position-x: 45%;
+	background-position-y: 53%;
+	background-size: cover;
+}
+
+.row3-2 {
+	background: url(../img/pennys.jpg) no-repeat;
+	background-position-x: 33%;
+	background-position-y: 8%;
+}
+
+.row4-1 {
+	background: url(../img/4-2.jpg) no-repeat;
+	background-position-x: 53%;
+	background-position-y: 20%;
+}
+
+.row4-2 {
+	background: url(../img/poster.jpg) no-repeat;
+	background-position-x: 51%;
+	background-position-y: 6%;
+}
+.row4-4 {
+	background: url(../img/friends.jpg) no-repeat;
+	background-position-x: 67%;
+	background-position-y: 43%;
+	background-size: cover;
+}
+.row4-3 {
+	background: url(../img/yumjang.jpg) no-repeat;
+	background-position-x: 29%;
+	background-position-y: 57%;
+}
+
+.row4-5 {
+	background: url(../img/jump.jpg) no-repeat;
+	background-position-x: 77%;
+	background-position-y: 57%;
+}
+
+
+.final {
+	margin: 0 auto;
+	margin-bottom: 7%;
+}
+
+.final img {
+	width: 100%;
+}
+
+.footer {
+	background: url(../img/footer.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	margin: 0;
+	padding: 2%;
+	background-position-x: 20%;
+	background-position-y: 19%;
+	width: 100%;
+	text-align: center;
+}
+
+/*------------------media queries---------------------------*/
+
+@media (min-width: 768px){
+.bot  {
+	width: 20%;
+}
+}
